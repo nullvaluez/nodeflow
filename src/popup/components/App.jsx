@@ -19,12 +19,12 @@ function App() {
       try {
         const result = await chromeAdapter.getExtensionId();
         if (!result || result.consistent === false) {
-          console.error('Interaction Recorder: extension ID consistency check failed', result);
+          console.error('NodeFlow: extension ID consistency check failed', result);
           setIsExtensionValid(false);
           return;
         }
       } catch (err) {
-        console.error('Interaction Recorder: failed to validate extension ID', err);
+        console.error('NodeFlow: failed to validate extension ID', err);
         setIsExtensionValid(false);
         return;
       }

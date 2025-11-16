@@ -6,7 +6,7 @@
   
   // Prevent duplicate injection
   if (window.__INTERACTION_RECORDER_LOADED__) {
-    console.log('Interaction Recorder already loaded');
+    console.log('NodeFlow recorder already loaded');
     return;
   }
   window.__INTERACTION_RECORDER_LOADED__ = true;
@@ -295,6 +295,6 @@
     console.warn('Could not notify background:', err);
   });
   
-  console.log('Interaction Recorder active on', window.location.href);
+  console.log('NodeFlow recorder active on', window.location.href);
 })();
 

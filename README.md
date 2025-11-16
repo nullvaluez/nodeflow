@@ -1,6 +1,6 @@
-# Interaction Recorder - Chrome Extension
+# NodeFlow - Chrome Extension
 
-A powerful Chrome extension that records web interactions and generates automation tasks for tools like n8n, Puppeteer, Playwright, and custom sneaker bots.
+NodeFlow is a Chrome extension that records web interactions and generates automation tasks for tools like n8n, Puppeteer, Playwright, and custom sneaker bots.
 
 ## 🚀 Features
 

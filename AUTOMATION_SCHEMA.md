@@ -1,6 +1,6 @@
 # Automation Task JSON Schema
 
-This document describes the JSON format exported by the "Task" button in the Interaction Recorder extension. This format is designed to be consumed by automation tools like n8n, Puppeteer, Playwright, or custom sneaker bots.
+This document describes the JSON format exported by the "Task" button in the NodeFlow extension. This format is designed to be consumed by automation tools like n8n, Puppeteer, Playwright, or custom sneaker bots.
 
 ## Overview
 

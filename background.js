@@ -1,4 +1,4 @@
-// Background service worker for Interaction Recorder
+// Background service worker for NodeFlow
 // Manages per-tab recording state, content script injection, and event storage
 
 const STORAGE_KEY_PREFIX = 'events_tab_';
@@ -8,7 +8,7 @@ const INSTALL_ID_KEY = 'extension_install_id';
 
 // Initialize recording state and context menu on install
 chrome.runtime.onInstalled.addListener(() => {
-  console.log('Interaction Recorder installed');
+  console.log('NodeFlow installed');
   console.log('Extension ID:', chrome.runtime.id);
   chrome.storage.session.set({ [RECORDING_STATE_KEY]: {} });
 

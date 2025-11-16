@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Interaction Recorder",
+  "name": "NodeFlow",
   "version": "1.0.0",
-  "description": "Record user interactions with web pages to understand element flow and behavior",
+  "description": "NodeFlow: record web interactions and generate automation tasks",
   "permissions": [
     "storage",
     "scripting",

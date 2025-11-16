@@ -1,7 +1,7 @@
 {
-  "name": "interaction-recorder-extension",
+  "name": "nodeflow-extension",
   "version": "2.0.0",
-  "description": "Chrome extension for recording web interactions and generating automation tasks",
+  "description": "NodeFlow - Chrome extension for recording web interactions and generating automation tasks",
   "private": true,
   "scripts": {
     "dev": "vite build --watch --mode development",
@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
