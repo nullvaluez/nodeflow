@@ -189,7 +189,7 @@ See [AUTOMATION_SCHEMA.md](AUTOMATION_SCHEMA.md) for complete documentation.
 ### Architecture
 
 - **Manifest V3**: Modern Chrome extension architecture with a service worker background
-- **React 18**: Hooks-based popup UI with a compact, dark dashboard
+- **React 19**: Hooks-based popup UI with a compact, dark dashboard
 - **Vite**: Fast build tool for development and production
 - **Service Worker (`background.js`)**: Manages per‑tab recording state, event storage, badge state, and the right‑click context menu
 - **Content Scripts (`content/*.js`)**: Injected into pages to capture interactions and highlight elements
@@ -392,7 +392,7 @@ For issues, questions, or feature requests, please open an issue on GitHub.
 ## 🙏 Acknowledgments
 
 Built with:
-- React 18
+- React 19
 - Vite
 - Chrome Extension APIs (Manifest V3)
 - Mermaid (for flowchart diagrams)
